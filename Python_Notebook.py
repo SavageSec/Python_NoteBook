@@ -1,7 +1,7 @@
 import os
 import colorama
 from colorama import Fore, Style
-colorama.init()
+colorama.init(autoreset=True)
 
 Name = input("Hello there, what name would you like to be called? ")
 #   os.system("cls") # unhash for windows OS
@@ -9,7 +9,7 @@ os.system("clear")
 # Allowing user to make a name.
 while True:     #Loop back to this point (Beginning).
     #Options.
-    print("\033[1;32;40m " + "-Ports-"),
+    print("\033[1;39;40m " + "-Ports-"),
     print("-Network-"),
     print("-LAN-"),
     print("-WLAN-"),
