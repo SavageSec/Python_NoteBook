@@ -9,10 +9,10 @@ os.system("clear")
 # Allowing user to make a name.
 while True:     #Loop back to this point (Beginning).
     #Options.
-    print("\033[1;39;40m " + "-Ports-"),
-    print("-Network-"),
-    print("-LAN-"),
-    print("-WLAN-"),
+    print(Fore.GREEN + "-Ports-"),
+    print(Fore.GREEN+ "-Network-"),
+    print(Fore.GREEN+ "-LAN-"),
+    print(Fore.GREEN+ "-WLAN-"),
     #input: pick option.         #Character name.
     operation = input("Hello " + Name + ", Select an option to continue ")
     if operation == "Ports":    #If they type "Ports" it'll show Notes.
@@ -22,7 +22,7 @@ while True:     #Loop back to this point (Beginning).
         print("Port Definition: A computer port is a connection point or interface between a computer and an external or internal device.\n"
         "Internal ports may connect such devices as hard drives and CD ROM or DVD drives\n"
         "external ports may connect modems, printers, mice and other devices.\n")
-        print("You can use Ports to find vulnerabilities to further exploit or to build reconnaissance.\n ")
+        print(Fore.RED + "You can use Ports to find vulnerabilities to further exploit or to build reconnaissance.\n ")
         print("- Port: 23   / TCP is telnet")
         print("- Port: 21   / TCP is FTP (sftp for secure)")
         print("- Port: 445  / TCP is SMB operate (SMB: Server Message Block)")
@@ -32,7 +32,7 @@ while True:     #Loop back to this point (Beginning).
     elif operation == "Network":    #If they type "Network" it'll show notes.
         #   os.system("cls") # unhash for windows OS
         os.system("clear")
-        print("\nNetwork Definition: A group or system of interconnected people or things.")
+        print("\nFore.RED + Network Definition: A group or system of interconnected people or things.")
         print("\nNetwork Topologies:\n There are 8 different Net Topologies (Listed Below)")
        
         Topology = """ 
