@@ -9,7 +9,7 @@ os.system("clear")
 # Allowing user to make a name.
 while True:     #Loop back to this point (Beginning).
     #Options.
-    print(Fore.GREEN + "-Ports-"),
+    print(Fore.GREEN+ "-Ports-"),
     print(Fore.GREEN+ "-Network-"),
     print(Fore.GREEN+ "-LAN-"),
     print(Fore.GREEN+ "-WLAN-"),
@@ -32,7 +32,7 @@ while True:     #Loop back to this point (Beginning).
     elif operation == "Network":    #If they type "Network" it'll show notes.
         #   os.system("cls") # unhash for windows OS
         os.system("clear")
-        print("\nFore.RED + Network Definition: A group or system of interconnected people or things.")
+        print(Fore.RED + "\nNetwork Definition: A group or system of interconnected people or things.")
         print("\nNetwork Topologies:\n There are 8 different Net Topologies (Listed Below)")
        
         Topology = """ 
