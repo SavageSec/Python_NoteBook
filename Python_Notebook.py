@@ -23,11 +23,17 @@ while True:     #Loop back to this point (Beginning).
         "Internal ports may connect such devices as hard drives and CD ROM or DVD drives\n"
         "external ports may connect modems, printers, mice and other devices.\n")
         print(Fore.RED + "You can use Ports to find vulnerabilities to further exploit or to build reconnaissance.\n ")
-        print("- Port: 23   / TCP is telnet")
-        print("- Port: 21   / TCP is FTP (sftp for secure)")
-        print("- Port: 445  / TCP is SMB operate (SMB: Server Message Block)")
-        print("- port: 80   / HTTP is (Hypertext Transfer Protocol)")
-        print("- port: 3389 / TCP  It is typically used for Windows Remote Desktop Protocol (RDP)")
+        print("- Port: 22      / SSH is Secure Shell enables two computers to communicate ")
+        print("- Port: 23      / TCP is telnet")
+        print("- Port: 25      / SMTP is Simple Mail Transfer Protocol, E-mail routing")
+        print("- Port: 21/21   / TCP is FTP (sftp for secure)")
+        print("- Port: 53      / DNS is Domain Name System")
+        print("- Port: 69      / TFTP is Trivial File Transfer Protocol. less secure and does not require authentication ")
+        print("- Port: 445     / TCP is SMB operate (SMB: Server Message Block)")
+        print("- port: 443     / HTTPS IS (Hypertext Transfer Protocol Secure)")
+        print("- port: 80      / HTTP is (Hypertext Transfer Protocol)")
+        print("- port: 3389    / TCP  It is typically used for Windows Remote Desktop Protocol (RDP)")
+        print("- port: ")
 
     elif operation == "Network":    #If they type "Network" it'll show notes.
         #   os.system("cls") # unhash for windows OS
