@@ -27,6 +27,7 @@ while True:     #Loop back to this point (Beginning).
         print("- Port: 23      / TCP is telnet")
         print("- Port: 25      / SMTP is Simple Mail Transfer Protocol, E-mail routing")
         print("- Port: 21/21   / TCP is FTP (sftp for secure)")
+        print("- Port: 21/21   / ")
         print("- Port: 53      / DNS is Domain Name System")
         print("- Port: 69      / TFTP is Trivial File Transfer Protocol. less secure and does not require authentication ")
         print("- Port: 445     / TCP is SMB operate (SMB: Server Message Block)")
